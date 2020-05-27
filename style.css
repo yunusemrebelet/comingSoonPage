@@ -1,0 +1,106 @@
+/*
+Theme Name: landingPage
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Franklin", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+header span {
+  color: hsl(223, 87%, 63%);
+}
+header {
+  margin-top: 20px;
+}
+header h2 {
+  color: hsl(209, 33%, 12%);
+}
+.top-level {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.top-level p {
+  font-size: 18px;
+  margin-top: 15px;
+  color: hsl(209, 33%, 12%);
+}
+.top-level h2 {
+  color: hsl(0, 0%, 59%);
+  font-size: 36px;
+}
+.top-level span {
+  font-size: 36px;
+  color: hsl(209, 33%, 12%);
+}
+input {
+  width: 300px;
+  height: 40px;
+  border-radius: 25px;
+  border: 1.3px solid hsl(354, 40%, 62%);
+  font-size: 18px;
+  text-indent: 15px;
+}
+.button {
+  width: 170px;
+  background-color: hsl(223, 74%, 71%);
+  padding: 7px 20px 7px 20px;
+  font-size: 21px;
+  color: white;
+  margin-left: 8px;
+  border-radius: 25px;
+  transition: 400ms all;
+}
+.mailClass {
+  margin-top: 25px;
+}
+.img_container {
+  margin-top: 32px;
+}
+.img_container img {
+  width: 500px;
+  height: 320px;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer p {
+  margin-top: 15px;
+}
+footer i {
+  font-size: 21px;
+  color: hsl(224, 80%, 63%);
+  transition: 400ms all;
+}
+.button:hover {
+  background-color: hsl(0, 0%, 59%);
+}
+footer li {
+  margin-left: 13px;
+}
